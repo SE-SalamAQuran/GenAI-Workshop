@@ -18,7 +18,7 @@ source venv/Scripts/activate
 
 # For Mac or Linux
 python3 -m venv venv
-source venv/Scripts/.activate
+source venv/bin/activate
 
 pip install -r requirements.txt
 python run.py
